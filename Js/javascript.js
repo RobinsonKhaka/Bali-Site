@@ -22,30 +22,5 @@
      };
    });
  });
- /*==========================================
- Nav
- ==============================================*/
- var navbar = document.getElementById('container nav-ctn');
 
- var sticky = navbar.offsetTop;
-
- console.log(sticky);
-
-
-
-  function checkPostion(){
-
-    if (window.pageYOffset >= sticky) {
-       navbar.classList.add("fix-my-nav");
-    } else{
-        navbar.classList.remove("fix-my-nav");
-    }
-  }
-
-  window.onscroll = function(){
-      checkPostion();
-  }
- /*============================================
-	Type Words
-	==============================================*/
 
